@@ -39,89 +39,109 @@ const menu = [
 ];
 
 const LIFETIME_KEYS = [
-  "DUELIST-1251-QX7P",
-  "DUELIST-1252-NM4L",
-  "DUELIST-1253-WP8A",
-  "DUELIST-1254-ZL2Q",
-  "DUELIST-1255-HX9P",
-  "DUELIST-1256-RQ3L",
-  "DUELIST-1257-TM7A",
-  "DUELIST-1258-KP4X",
-  "DUELIST-1259-BL8Q",
-  "DUELIST-1260-YX2P",
-  "DUELIST-1261-MQ5L",
-  "DUELIST-1262-VP9A",
-  "DUELIST-1263-JL3X",
-  "DUELIST-1264-NQ7P",
-  "DUELIST-1265-WM4L",
-  "DUELIST-1266-ZP8A",
-  "DUELIST-1267-HL2Q",
-  "DUELIST-1268-RX9P",
-  "DUELIST-1269-TQ3L",
-  "DUELIST-1270-KM7A",
-  "DUELIST-1271-BP4X",
-  "DUELIST-1272-YL8Q",
-  "DUELIST-1273-MX2P",
-  "DUELIST-1274-VQ5L",
-  "DUELIST-1275-JP9A",
-  "DUELIST-1276-NL3X",
-  "DUELIST-1277-WQ7P",
-  "DUELIST-1278-ZM4L",
-  "DUELIST-1279-HP8A",
-  "DUELIST-1280-RL2Q",
-  "DUELIST-1281-TX9P",
-  "DUELIST-1282-KQ3L",
-  "DUELIST-1283-BM7A",
-  "DUELIST-1284-YP4X",
-  "DUELIST-1285-ML8Q",
-  "DUELIST-1286-VX2P",
-  "DUELIST-1287-JQ5L",
-  "DUELIST-1288-NP9A",
-  "DUELIST-1289-WL3X",
-  "DUELIST-1290-ZQ7P",
-  "DUELIST-1291-HM4L",
-  "DUELIST-1292-RP8A",
-  "DUELIST-1293-TL2Q",
-  "DUELIST-1294-KX9P",
-  "DUELIST-1295-BQ3L",
-  "DUELIST-1296-YM7A",
-  "DUELIST-1297-MP4X",
-  "DUELIST-1298-VL8Q",
-  "DUELIST-1299-JX2P",
-  "DUELIST-1300-NQ5L",
-  "DUELIST-1301-WP9A",
-  "DUELIST-1302-ZL3X",
-  "DUELIST-1303-HQ7P",
-  "DUELIST-1304-RM4L",
-  "DUELIST-1305-TP8A",
-  "DUELIST-1306-KL2Q",
-  "DUELIST-1307-BX9P",
-  "DUELIST-1308-YQ3L",
-  "DUELIST-1309-MM7A",
-  "DUELIST-1310-HP9L"
+  "TRIGGERBOT-9001-LX7P",
+  "TRIGGERBOT-9002-QM8A",
+  "TRIGGERBOT-9003-ZP4Q",
+  "TRIGGERBOT-9004-HX9L",
+  "TRIGGERBOT-9005-RM2P",
+  "TRIGGERBOT-9006-TQ7N",
+  "TRIGGERBOT-9007-WL5X",
+  "TRIGGERBOT-9008-BP3Q",
+  "TRIGGERBOT-9009-KM8L",
+  "TRIGGERBOT-9010-NX4P",
+  "TRIGGERBOT-9011-YQ9A",
+  "TRIGGERBOT-9012-VL2X",
+  "TRIGGERBOT-9013-JP7Q",
+  "TRIGGERBOT-9014-MT5L",
+  "TRIGGERBOT-9015-ZX3P",
+  "TRIGGERBOT-9016-HQ8N",
+  "TRIGGERBOT-9017-RL4Q",
+  "TRIGGERBOT-9018-WP9X",
+  "TRIGGERBOT-9019-BM2L",
+  "TRIGGERBOT-9020-KQ7P",
+  "TRIGGERBOT-9021-NL5X",
+  "TRIGGERBOT-9022-YP3Q",
+  "TRIGGERBOT-9023-VM8L",
+  "TRIGGERBOT-9024-JQ4P",
+  "TRIGGERBOT-9025-MX9A",
+  "TRIGGERBOT-9026-ZL2Q",
+  "TRIGGERBOT-9027-HP7X",
+  "TRIGGERBOT-9028-RQ5L",
+  "TRIGGERBOT-9029-WM3P",
+  "TRIGGERBOT-9030-BX8Q",
+  "TRIGGERBOT-9031-KL4N",
+  "TRIGGERBOT-9032-NP9L",
+  "TRIGGERBOT-9033-YQ2X",
+  "TRIGGERBOT-9034-VL7P",
+  "TRIGGERBOT-9035-JM5Q",
+  "TRIGGERBOT-9036-MX3L",
+  "TRIGGERBOT-9037-ZQ8P",
+  "TRIGGERBOT-9038-HL4X",
+  "TRIGGERBOT-9039-RP9Q",
+  "TRIGGERBOT-9040-WM2L",
+  "TRIGGERBOT-9041-BQ7X",
+  "TRIGGERBOT-9042-KL5P",
+  "TRIGGERBOT-9043-NX3Q",
+  "TRIGGERBOT-9044-YP8L",
+  "TRIGGERBOT-9045-VQ4P",
+  "TRIGGERBOT-9046-JL9X",
+  "TRIGGERBOT-9047-MP2Q",
+  "TRIGGERBOT-9048-ZX7L",
+  "TRIGGERBOT-9049-HQ5P",
+  "TRIGGERBOT-9050-RL3X"
 ];
 
 const MONTHLY_KEYS = [
-  "SLOTTED-3001-QX7P",
-  "SLOTTED-3002-NM4L",
-  "SLOTTED-3003-WP8A",
-  "SLOTTED-3004-ZL2Q",
-  "SLOTTED-3005-HX9P",
-  "SLOTTED-3006-RQ3L",
-  "SLOTTED-3007-TM7A",
-  "SLOTTED-3008-KP4X",
-  "SLOTTED-3009-BL8Q",
-  "SLOTTED-3010-YX2P",
-  "SLOTTED-3011-MQ5L",
-  "SLOTTED-3012-VP9A",
-  "SLOTTED-3013-JL3X",
-  "SLOTTED-3014-NQ7P",
-  "SLOTTED-3015-WM4L",
-  "SLOTTED-3016-ZP8A",
-  "SLOTTED-3017-HL2Q",
-  "SLOTTED-3018-RX9P",
-  "SLOTTED-3019-TQ3L",
-  "SLOTTED-3020-KM7A"
+  "TRIGGERBOT-9501-QM7P",
+  "TRIGGERBOT-9502-LX9A",
+  "TRIGGERBOT-9503-ZP4N",
+  "TRIGGERBOT-9504-HQ8L",
+  "TRIGGERBOT-9505-RM2X",
+  "TRIGGERBOT-9506-TL7Q",
+  "TRIGGERBOT-9507-WP5N",
+  "TRIGGERBOT-9508-BX3L",
+  "TRIGGERBOT-9509-KQ8P",
+  "TRIGGERBOT-9510-NM4X",
+  "TRIGGERBOT-9511-YL9Q",
+  "TRIGGERBOT-9512-VP2N",
+  "TRIGGERBOT-9513-JX7L",
+  "TRIGGERBOT-9514-MQ5P",
+  "TRIGGERBOT-9515-ZL3X",
+  "TRIGGERBOT-9516-HP8Q",
+  "TRIGGERBOT-9517-RM4N",
+  "TRIGGERBOT-9518-WQ9L",
+  "TRIGGERBOT-9519-BP2X",
+  "TRIGGERBOT-9520-KL7Q",
+  "TRIGGERBOT-9521-NX5P",
+  "TRIGGERBOT-9522-YQ3L",
+  "TRIGGERBOT-9523-VM8X",
+  "TRIGGERBOT-9524-JP4Q",
+  "TRIGGERBOT-9525-MX9N",
+  "TRIGGERBOT-9526-ZQ2L",
+  "TRIGGERBOT-9527-HL7P",
+  "TRIGGERBOT-9528-RP5X",
+  "TRIGGERBOT-9529-WM3Q",
+  "TRIGGERBOT-9530-BQ8L",
+  "TRIGGERBOT-9531-KX4N",
+  "TRIGGERBOT-9532-NL9P",
+  "TRIGGERBOT-9533-YP2X",
+  "TRIGGERBOT-9534-VQ7L",
+  "TRIGGERBOT-9535-JM5P",
+  "TRIGGERBOT-9536-MP3Q",
+  "TRIGGERBOT-9537-ZX8L",
+  "TRIGGERBOT-9538-HQ4P",
+  "TRIGGERBOT-9539-RL9X",
+  "TRIGGERBOT-9540-WP2Q",
+  "TRIGGERBOT-9541-BM7L",
+  "TRIGGERBOT-9542-KQ5X",
+  "TRIGGERBOT-9543-NP3Q",
+  "TRIGGERBOT-9544-YX8L",
+  "TRIGGERBOT-9545-VL4P",
+  "TRIGGERBOT-9546-JQ9X",
+  "TRIGGERBOT-9547-ML2Q",
+  "TRIGGERBOT-9548-ZP7L",
+  "TRIGGERBOT-9549-HX5P",
+  "TRIGGERBOT-9550-RQ3X"
 ];
 
 const VALID_KEYS = [...LIFETIME_KEYS, ...MONTHLY_KEYS];
@@ -510,18 +530,18 @@ export default function DuelistColorBotGUI() {
     if (next) {
       playSound("start");
       setScanning(true);
-      notify("Slotted is now running.", "success");
+      notify("TriggerBot is now running.", "success");
     } else {
       playSound("click");
       setScanning(false);
-      notify("Slotted stopped.");
+      notify("TriggerBot stopped.");
     }
   }
 
   function startColorScan() {
     setScanning(true);
     notify(`Screen color scan started for ${colorSettings.hex}.`, "success");
-    openModal("Color Scan Active", `Slotted is now scanning for ${colorSettings.preset} outline color (${colorSettings.hex}).
+    openModal("Color Scan Active", `TriggerBot is now scanning for ${colorSettings.preset} outline color (${colorSettings.hex}).
 
 Keybind: ${activationKey}
 Mode: ${holdMode ? "Hold" : "Toggle"}
@@ -544,7 +564,7 @@ Fully external mode enabled.`);
     setToast("Checking build status...");
     setTimeout(() => {
       setChecking(false);
-      notify("Slotted is up to date.");
+      notify("TriggerBot is up to date.");
     }, 900);
   }
 
@@ -807,8 +827,8 @@ Fully external mode enabled.`);
               <StatusPill tone="green">500+ active users</StatusPill>
             </div>
             <div className="mb-6 rounded-3xl border border-white/10 bg-black/40 p-5">
-              <div className="mb-4 flex items-center gap-3 text-zinc-300"><div className="grid h-10 w-10 place-items-center rounded-2xl border border-red-500/20 bg-red-500/10"><KeyRound className="h-5 w-5 text-red-400" /></div><div><div className="font-semibold text-white">License Authentication</div><div className="text-sm text-zinc-500">Enter your Slotted access key to continue.</div></div></div>
-              <input value={licenseKey} onChange={(e) => setLicenseKey(e.target.value.toUpperCase())} onKeyDown={(e) => e.key === "Enter" && authenticateKey()} placeholder="SLOTTED-XXXX-XXXX" className="h-14 w-full rounded-2xl border border-white/10 bg-black/70 px-5 text-lg text-white outline-none transition placeholder:text-zinc-700 focus:border-red-500/60 focus:ring-4 focus:ring-red-500/10" />
+              <div className="mb-4 flex items-center gap-3 text-zinc-300"><div className="grid h-10 w-10 place-items-center rounded-2xl border border-red-500/20 bg-red-500/10"><KeyRound className="h-5 w-5 text-red-400" /></div><div><div className="font-semibold text-white">License Authentication</div><div className="text-sm text-zinc-500">Enter your TriggerBot access key to continue.</div></div></div>
+              <input value={licenseKey} onChange={(e) => setLicenseKey(e.target.value.toUpperCase())} onKeyDown={(e) => e.key === "Enter" && authenticateKey()} placeholder="TRIGGERBOT-XXXX-XXXX" className="h-14 w-full rounded-2xl border border-white/10 bg-black/70 px-5 text-lg text-white outline-none transition placeholder:text-zinc-700 focus:border-red-500/60 focus:ring-4 focus:ring-red-500/10" />
               {authError && <div className="mt-4 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-sm text-red-300">{authError}</div>}
               <Button onClick={authenticateKey} disabled={authStage !== "idle"} className={`mt-5 flex w-full items-center justify-center rounded-2xl border px-5 py-4 font-semibold text-white transition ${authStage === "success" ? "border-emerald-500/40 bg-emerald-500/15" : "border-red-500/35 bg-red-500/10 hover:bg-red-500/15"}`}>
                 {authStage === "checking" ? <><span className="mr-3 h-5 w-5 animate-spin rounded-full border-2 border-white/20 border-t-red-400" />Verifying License...</> : authStage === "success" ? <><Check className="mr-2 h-5 w-5 text-emerald-400" />Authenticated</> : <>Authenticate <ChevronRight className="ml-2 h-5 w-5 text-red-400" /></>}
@@ -887,7 +907,7 @@ Fully external mode enabled.`);
                   <GlassCard className="p-6"><div className="mb-6 flex items-center justify-between"><div><h3 className="text-xl font-bold">Features</h3><p className="mt-1 text-sm text-zinc-500">Available Modules</p></div><Sparkles className="h-6 w-6 text-red-400" /></div><div className="space-y-3">{Object.entries(features).map(([feature, enabled]) => (<div key={feature} className="group flex items-center gap-4 rounded-2xl border border-white/[.06] bg-black/30 p-4 transition hover:border-red-500/25 hover:bg-white/[.035]"><Crosshair className="h-5 w-5 text-zinc-300" /><button onClick={() => setActivePage(feature)} className="flex-1 text-left font-semibold text-white">{feature}</button><span className={`text-sm font-semibold ${enabled ? "text-red-400" : "text-zinc-600"}`}>{enabled ? "Enabled" : "Disabled"}</span><Toggle enabled={enabled} onClick={() => toggleFeature(feature)} /></div>))}</div></GlassCard>
                   <GlassCard className="p-6"><div className="mb-6 flex items-center justify-between"><div><h3 className="text-xl font-bold">News</h3><p className="mt-1 text-sm text-zinc-500">Recent Changes</p></div><Zap className="h-6 w-6 text-red-400" /></div><div className="space-y-3">{[["Update 2.4.1", "Bug fixes and performance improvements.", "May 22"], ["Update 2.4.0", "New features and optimizations.", "May 15"], ["Update 2.3.9", "Minor fixes.", "May 9"]].map(([title, desc, date]) => (<button key={title} onClick={() => openModal(title, desc)} className="w-full rounded-2xl border border-white/[.06] bg-black/30 p-4 text-left transition hover:border-red-500/25 hover:bg-white/[.035]"><div className="flex justify-between gap-3"><h4 className="font-bold text-white">{title}</h4><span className="text-sm text-zinc-500">{date}</span></div><p className="mt-2 text-sm text-zinc-400">{desc}</p></button>))}</div></GlassCard>
                 </div>
-                <div className="grid gap-5 xl:grid-cols-[1fr_.8fr]"><GlassCard className="p-6"><div className="mb-5 flex items-center justify-between"><div><h3 className="text-xl font-bold">Activity Log</h3><p className="mt-1 text-sm text-zinc-500">Live system actions</p></div><Activity className="h-5 w-5 text-red-400" /></div><div className="space-y-3">{activityLog.map((log, index) => (<div key={index} className="flex items-center gap-3 rounded-2xl border border-white/[.06] bg-black/30 px-4 py-3 animate-[panelReveal_.35s_ease]"><div className="h-2 w-2 rounded-full bg-red-500 shadow-[0_0_14px_rgba(239,68,68,.8)]" /><span className="text-sm text-zinc-300">{log}</span></div>))}</div></GlassCard><div className="grid gap-5"><GlassCard className="p-6"><div className="mb-5 flex items-center justify-between"><div><div className="text-sm text-zinc-500">Session Runtime</div><div className="mt-2 text-4xl font-black text-white">{formattedRuntime}</div></div><div className="rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm font-bold text-red-300">LIVE</div></div><div className="h-3 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-gradient-to-r from-red-700 via-red-500 to-white transition-all duration-500" style={{ width: running ? '100%' : '12%' }} /></div><div className="mt-5 flex items-center justify-between text-sm"><span className="text-zinc-500">Status</span><span className="font-bold text-white">{running ? 'Scanner Active' : 'Waiting for start'}</span></div></GlassCard><GlassCard className="p-6"><div className="flex items-center gap-5"><div className="grid h-16 w-16 place-items-center rounded-3xl border border-red-500/20 bg-red-500/10"><ShieldCheck className="h-9 w-9 text-red-400" /></div><div><h3 className="text-2xl font-bold">System Ready</h3><p className="mt-1 text-zinc-400">All modules initialized successfully.</p><div className="mt-2"><StatusPill tone="green">Safe to use</StatusPill></div></div></div></GlassCard><GlassCard className="p-6"><div className="flex items-center gap-5"><div className="grid h-16 w-16 place-items-center rounded-3xl border border-red-500/20 bg-red-500/10"><ShieldCheck className="h-9 w-9 text-red-400" /></div><div><h3 className="text-2xl font-bold">External</h3><p className="mt-1 text-zinc-400">Slotted runs externally.</p><div className="mt-2"><StatusPill tone="green">No drivers installed</StatusPill></div></div></div></GlassCard></div></div>
+                <div className="grid gap-5 xl:grid-cols-[1fr_.8fr]"><GlassCard className="p-6"><div className="mb-5 flex items-center justify-between"><div><h3 className="text-xl font-bold">Activity Log</h3><p className="mt-1 text-sm text-zinc-500">Live system actions</p></div><Activity className="h-5 w-5 text-red-400" /></div><div className="space-y-3">{activityLog.map((log, index) => (<div key={index} className="flex items-center gap-3 rounded-2xl border border-white/[.06] bg-black/30 px-4 py-3 animate-[panelReveal_.35s_ease]"><div className="h-2 w-2 rounded-full bg-red-500 shadow-[0_0_14px_rgba(239,68,68,.8)]" /><span className="text-sm text-zinc-300">{log}</span></div>))}</div></GlassCard><div className="grid gap-5"><GlassCard className="p-6"><div className="mb-5 flex items-center justify-between"><div><div className="text-sm text-zinc-500">Session Runtime</div><div className="mt-2 text-4xl font-black text-white">{formattedRuntime}</div></div><div className="rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm font-bold text-red-300">LIVE</div></div><div className="h-3 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-gradient-to-r from-red-700 via-red-500 to-white transition-all duration-500" style={{ width: running ? '100%' : '12%' }} /></div><div className="mt-5 flex items-center justify-between text-sm"><span className="text-zinc-500">Status</span><span className="font-bold text-white">{running ? 'Scanner Active' : 'Waiting for start'}</span></div></GlassCard><GlassCard className="p-6"><div className="flex items-center gap-5"><div className="grid h-16 w-16 place-items-center rounded-3xl border border-red-500/20 bg-red-500/10"><ShieldCheck className="h-9 w-9 text-red-400" /></div><div><h3 className="text-2xl font-bold">System Ready</h3><p className="mt-1 text-zinc-400">All modules initialized successfully.</p><div className="mt-2"><StatusPill tone="green">Safe to use</StatusPill></div></div></div></GlassCard><GlassCard className="p-6"><div className="flex items-center gap-5"><div className="grid h-16 w-16 place-items-center rounded-3xl border border-red-500/20 bg-red-500/10"><ShieldCheck className="h-9 w-9 text-red-400" /></div><div><h3 className="text-2xl font-bold">External</h3><p className="mt-1 text-zinc-400">TriggerBot runs externally.</p><div className="mt-2"><StatusPill tone="green">No drivers installed</StatusPill></div></div></div></GlassCard></div></div>
               </>
             )}
             {modal && (<div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-5 backdrop-blur-sm" onClick={() => setModal(null)}><div className="w-full max-w-lg rounded-[28px] border border-white/10 bg-[#070707] p-6 shadow-[0_30px_100px_rgba(0,0,0,.65)]" onClick={(e) => e.stopPropagation()}><div className="mb-4 flex items-center justify-between gap-4"><h3 className="text-2xl font-bold text-white">{modal.title}</h3><button onClick={() => setModal(null)} className="rounded-xl border border-white/10 px-3 py-1 text-zinc-400 transition hover:text-white">×</button></div><p className="whitespace-pre-line text-zinc-400">{modal.body}</p><Button onClick={() => setModal(null)} className="mt-6 w-full rounded-2xl border border-red-500/30 bg-red-500/10 py-3 font-semibold text-white transition hover:bg-red-500/15">Close</Button></div></div>)}
